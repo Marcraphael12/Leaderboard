@@ -31,3 +31,23 @@ button {
   border: 1px solid black;
   border-radius: 5px;
 }
+
+.flex {
+	display: flex;
+
+	&-dc { // direction column
+		flex-direction: column;
+	}
+
+	&-jc-c { // justify content center
+		justify-content: center;
+	}
+
+	&-jc-sb { // justify content space between
+		justify-content: space-between;
+	}
+
+	&-ai-c { // align items center
+		align-items: center;
+	}
+}

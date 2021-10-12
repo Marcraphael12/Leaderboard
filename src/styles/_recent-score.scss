@@ -1,6 +1,6 @@
 .recent-scores {
 	border: 5px solid black;
-	width: 40%;
+	width: 50%;
 	padding: $global-padding;
 
 
@@ -20,6 +20,10 @@
 				width: max-content;
 				height: auto;
 			}
-		}
+
+			&:not(:nth-child(even)) {
+				background-color: $LightGray;
+			}
+		}	
 	}
 }

@@ -1,32 +1,33 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	width: 100%;
-	height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 main {
-	width: 100%;
-	max-width: 46.875rem;
-	height: 80%;
-	padding: $global-padding;
+  width: 100%;
+  max-width: 46.875rem;
+  height: 80%;
+  padding: $global-padding;
 }
 
 a {
-	text-decoration: none;
-	cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
   padding: 0.625rem 0.9375rem;
   background: transparent;
   border: 1px solid black;
@@ -34,26 +35,26 @@ button {
 }
 
 .flex {
-	display: flex;
+  display: flex;
 
-	&-dc { // direction column
-		flex-direction: column;
-	}
+  &-dc { // direction column
+    flex-direction: column;
+  }
 
-	&-jc-c { // justify content center
-		justify-content: center;
-	}
+  &-jc-c { // justify content center
+    justify-content: center;
+  }
 
-	&-jc-sb { // justify content space between
-		justify-content: space-between;
-	}
+  &-jc-sb { // justify content space between
+    justify-content: space-between;
+  }
 
-	&-ai-c { // align items center
-		align-items: center;
-	}
+  &-ai-c { // align items center
+    align-items: center;
+  }
 }
 
 footer {
-	width: 100%;
-	height: 10%;
+  width: 100%;
+  height: 10%;
 }

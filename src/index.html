@@ -8,14 +8,14 @@
 </head>
 <body>
 	<header class="header">
-		<h1 class="title">
+		<h1 class="header-title">
 			leaderboard
 		</h1>
 	</header>
 
-	<main class="main">
-		<div class="-recent-scores">
-      <div class="recent-refresh">
+	<main class="main flex flex-jc-sb">
+		<div class="-recent-scores flex flex-dc flex-jc-sb">
+      <div class="recent-refresh flex flex-jc-sb">
         <h3 class="recent">
           recents scores
         </h3>
@@ -78,11 +78,11 @@
       </ul>
     </div>
 
-		<div class="-add-score">
+		<div class="-add-score flex flex-dc flex-jc-sb">
       <h1 class="add-title">
         Add your score
       </h1>
-      <form action="">
+      <form action="" class="flex flex-dc">
         <input type="text" class="name-score" placeholder="your name">
 
         <input type="number" class="name-score" placeholder="your score">

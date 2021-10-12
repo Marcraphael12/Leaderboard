@@ -1,0 +1,23 @@
+.add-score {
+	width: 45%;
+	height: 13.5rem;
+	border: 5px solid black;
+	padding: $global-padding;
+
+	&-title {
+		width: 100%;
+		height: 20%;
+		margin-bottom: 10px;
+	}
+
+	> form {
+		width: 100%;
+		height: 80%;
+
+		> input {
+			width: 100%;
+			height: 30%;
+			padding: $global-padding;
+		}
+	}
+}

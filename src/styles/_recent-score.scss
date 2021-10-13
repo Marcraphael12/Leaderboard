@@ -1,0 +1,28 @@
+.recent-scores {
+  border: 5px solid black;
+  width: 50%;
+  padding: $global-padding;
+
+  &-list {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    > li {
+      width: 100%;
+      height: 30px;
+      padding: 0 10px;
+
+      > span {
+        width: max-content;
+        height: auto;
+      }
+
+      &:not(:nth-child(even)) {
+        background-color: $LightGray;
+      }
+    }
+  }
+}

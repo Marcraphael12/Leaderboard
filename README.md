@@ -33,15 +33,15 @@ To get a local copy up and running follow these simple example steps.
 - Code editor **for developers only
 
 ## Setup
-
 - download the repo, if you don't know how to do it, just [click here](https://github.com/Marcraphael12/Leaderboard.git)!<br>
-#### In the terminal, type: <br>
+	##### open the dist folder and run index.html file with your browser! 
+	#### In the terminal, type: **for developers only<br>
 - <code>git clone git@github.com:Marcraphael12/Leaderboard.git</code>
 - <code>cd Leaderboard</code>
 - <code>git checkout -b create-layout</code>
 
 ### Install
-#### After switching to the branch follow these steps to run the server <br>
+	#### After switching to the branch follow these steps to run the server <br>
 - Run <code>npm init -y</code> To init NPM localy
 - Run <code>npm start</code> To start the webpack sever
 

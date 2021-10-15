@@ -14,7 +14,7 @@ const displayTheUsersScore = (user) => {
     scoreList.classList.add('scores', 'flex', 'flex-jc-sb,', 'flex-ai-c');
     scoreList.innerHTML = `<span class="score-name">${score.user}</span> <span class="score-score">${score.score}</span>`;
 
-    // The we add the user's score to the score list
+    // Then we add the user's score to the score list
     scoresContainer.appendChild(scoreList);
   });
 };

@@ -39,18 +39,28 @@ async function asyncCall(url) {
 
 asyncCall(API);
 
+// we ne only the last items from the API to be return
 const removeListItems = () => {
   const ul = document.querySelector('.scores-container');
   let child = ul.lastElementChild;
+
+  // While our score container has a child
   while (child) {
+    // We remove the child
     ul.removeChild(child);
+    // We get the next child, wich is added but not showed
     child = ul.lastElementChild;
   }
 };
 
+// we need to refresh our App to get the last updates
 const refreshBtn = document.querySelector('.refresh-button');
+
+// By clicking on the refesh button, we print the score added to the leaderboard
 refreshBtn.addEventListener('click', async () => {
+  // we first get items added
   removeListItems();
+  // we then display it from the API
   displayTheUsersScore(await asyncCall(API));
 });
 
@@ -68,40 +78,36 @@ const sendTheData = (name, score) => {
   request.send(data);
 };
 
+// Here we check if the iputs are correct or not
 const inputs = document.querySelectorAll('.name-score');
+for (let i = 0; i < inputs.length; i += 1) {
+  inputs[i].addEventListener('keyup', () => {
+    if (inputs[i].validity.valid) {
+      inputs[i].style.border = '3px solid green';
+    } else {
+      inputs[i].style.border = '3px solid red';
+    }
+  });
+}
 
 addButton.addEventListener('click', (event) => {
   event.preventDefault(); // Prevent the default action of the form
-
+  const isNumber = (el) => /^[0-9]+$/.test(el) && !(/[a-z]/.test(el) || /[A-Z]/.test(el));
   // We get the data from the inputs
   const name = document.querySelector('.name').value;
   const score = document.querySelector('.score').value;
 
-  function checkInp(inp) {
-    const regex = /^[0-9]+$/;
-    if (inp.match(regex)) {
-      inp.setCustomValidity('Hey dear, use numbers only please!');
-    }
-    return false;
+  // we check if the data entered is a number
+  if (!isNumber(score)) {
+    document.querySelector('.score').setCustomValidity('Hey dear, use numbers only please!');
   }
 
   if ((name.length > 0) && (score >= 0)) {
     // If the inputs are not empty
     sendTheData(name, score); // We send the data
-  } else if (score.isNaN) {
-    checkInp(score);
   } else {
-    for (let i = 0; i < inputs.length; i += 1) {
-      inputs[i].addEventListener('keyup', () => {
-        if (inputs[i].validity.valid) {
-          inputs[i].style.border = '2px solid green';
-        } else {
-          inputs[i].style.border = '2px solid red';
-        }
-      });
-    }
+    throw new Error('Check your input!');
   }
-
   // We clear the inputs
   document.querySelector('.name').value = '';
   document.querySelector('.score').value = '';

@@ -14,9 +14,9 @@ body {
 
 main {
   width: 100%;
-  max-width: 46.875rem;
-  height: 80%;
+  height: 75%;
   padding: $global-padding;
+  background: $white;
 }
 
 a {
@@ -61,4 +61,6 @@ button {
 footer {
   width: 100%;
   height: 10%;
+  background-color: $white;
+  border-radius: 10px;
 }

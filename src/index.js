@@ -19,3 +19,22 @@ const displayTheUsersScore = (user) => {
   });
 };
 
+const thePromise = (url) => new Promise((resolve) => {
+  request.open('GET', url);
+  request.onload = () => {
+    if (request.status === 200) { // If the request is successful
+      resolve(request.response); // resolve the promise
+    } else { // else if the request is not successful
+      resolve('error'); // return an error
+    }
+  };
+  request.send(); // Send the request
+});
+
+async function asyncCall(url) {
+  thePromise(url);
+  const list = JSON.parse(await thePromise());
+  return list.result;
+}
+
+asyncCall(API);

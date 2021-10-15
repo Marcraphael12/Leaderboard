@@ -63,6 +63,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Marcraphael12/Leaderboard/issues).
 
+## Aknowlagement
+
+Photo by [Cláudio Luiz Castro](https://unsplash.com/@claudiolcastro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/game?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

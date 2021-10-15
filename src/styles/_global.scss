@@ -9,6 +9,7 @@ body {
   height: 100vh;
   background: $bg1;
   background-size: 100% 100%;
+  padding: $global-padding;
 }
 
 main {
@@ -31,9 +32,10 @@ li {
 button {
   cursor: pointer;
   padding: 0.625rem 0.9375rem;
-  background: transparent;
-  border: 1px solid black;
+  background: $fushia;
   border-radius: 5px;
+  border: none;
+  color: $white;
 }
 
 .flex {

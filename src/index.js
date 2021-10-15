@@ -81,7 +81,7 @@ const sendTheData = (name, score) => {
 // Here we check if the iputs are correct or not
 const inputs = document.querySelectorAll('.name-score');
 for (let i = 0; i < inputs.length; i += 1) {
-  inputs[i].addEventListener('keyup', () => {
+  inputs[i].addEventListener('input', () => {
     if (inputs[i].validity.valid) {
       inputs[i].style.border = '3px solid green';
     } else {

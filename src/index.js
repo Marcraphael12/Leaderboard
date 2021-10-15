@@ -92,7 +92,7 @@ for (let i = 0; i < inputs.length; i += 1) {
 
 addButton.addEventListener('click', (event) => {
   event.preventDefault(); // Prevent the default action of the form
-  const isNumber = (el) => /^[0-9]+$/.test(el) && !(/[a-z]/.test(el) || /[A-Z]/.test(el));
+  const isNumber = (el) => /^[0-9]+$/.test(el) && !(/[a-z]/.test(el) || !/[A-Z]/.test(el));
   // We get the data from the inputs
   const name = document.querySelector('.name').value;
   const score = document.querySelector('.score').value;

@@ -33,11 +33,26 @@ const thePromise = (url) => new Promise((resolve) => {
 
 async function asyncCall(url) {
   thePromise(url);
-  const list = JSON.parse(await thePromise());
+  const list = JSON.parse(await thePromise(API));
   return list.result;
 }
 
 asyncCall(API);
+
+const removeListItems = () => {
+  const ul = document.querySelector('.scores-container');
+  let child = ul.lastElementChild;
+  while (child) {
+    ul.removeChild(child);
+    child = ul.lastElementChild;
+  }
+};
+
+const refreshBtn = document.querySelector('.refresh-button');
+refreshBtn.addEventListener('click', async () => {
+  removeListItems();
+  displayTheUsersScore(await asyncCall(API));
+});
 
 const sendTheData = (name, score) => {
   // we ne the data to be sended
@@ -53,6 +68,8 @@ const sendTheData = (name, score) => {
   request.send(data);
 };
 
+const inputs = document.querySelectorAll('.name-score');
+
 addButton.addEventListener('click', (event) => {
   event.preventDefault(); // Prevent the default action of the form
 
@@ -60,12 +77,29 @@ addButton.addEventListener('click', (event) => {
   const name = document.querySelector('.name').value;
   const score = document.querySelector('.score').value;
 
-  if (name.length > 0 && score >= 0) {
+  function checkInp(inp) {
+    const regex = /^[0-9]+$/;
+    if (inp.match(regex)) {
+      inp.setCustomValidity('Hey dear, use numbers only please!');
+    }
+    return false;
+  }
+
+  if ((name.length > 0) && (score >= 0)) {
     // If the inputs are not empty
     sendTheData(name, score); // We send the data
+  } else if (score.isNaN) {
+    checkInp(score);
   } else {
-    // Else if the inputs are empty
-    alert('Please fill in the inputs'); // We alert the user
+    for (let i = 0; i < inputs.length; i += 1) {
+      inputs[i].addEventListener('keyup', () => {
+        if (inputs[i].validity.valid) {
+          inputs[i].style.border = '2px solid green';
+        } else {
+          inputs[i].style.border = '2px solid red';
+        }
+      });
+    }
   }
 
   // We clear the inputs
@@ -73,4 +107,5 @@ addButton.addEventListener('click', (event) => {
   document.querySelector('.score').value = '';
 });
 
-displayTheUsersScore(await asyncCall(API));
+const show = await asyncCall(API);
+displayTheUsersScore(show);

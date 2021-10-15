@@ -38,3 +38,39 @@ async function asyncCall(url) {
 }
 
 asyncCall(API);
+
+const sendTheData = (name, score) => {
+  // we ne the data to be sended
+  const data = `user=${name}&score=${score}`; // The data from the inputs
+
+  // We create the request by using the post method
+  request.open('POST', API, true);
+
+  // We set the header to be json
+  request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+  // We send the data
+  request.send(data);
+};
+
+addButton.addEventListener('click', (event) => {
+  event.preventDefault(); // Prevent the default action of the form
+
+  // We get the data from the inputs
+  const name = document.querySelector('.name').value;
+  const score = document.querySelector('.score').value;
+
+  if (name.length > 0 && score >= 0) {
+    // If the inputs are not empty
+    sendTheData(name, score); // We send the data
+  } else {
+    // Else if the inputs are empty
+    alert('Please fill in the inputs'); // We alert the user
+  }
+
+  // We clear the inputs
+  document.querySelector('.name').value = '';
+  document.querySelector('.score').value = '';
+});
+
+displayTheUsersScore(await asyncCall(API));

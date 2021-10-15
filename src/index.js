@@ -11,7 +11,7 @@ const displayTheUsersScore = (user) => {
   // for each score list we need a li and some spans to get the score and the name
   user.forEach((score) => {
     const scoreList = document.createElement('li');
-    scoreList.classList.add('scores', 'flex', 'flex-jc-sb,', 'flex-ai-c');
+    scoreList.classList.add('scores', 'flex', 'flex-jc-sb', 'flex-ai-c');
     scoreList.innerHTML = `<span class="score-name">${score.user}</span> <span class="score-score">${score.score}</span>`;
 
     // Then we add the user's score to the score list

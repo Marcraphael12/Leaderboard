@@ -2,7 +2,7 @@
 
 >Welcome to my Leaderboard App, it is a scoreboard showing the names and current scores of the leading competitors
 
-![](./images/leaderboard1.png)
+![](./images/leaderboard.png)
 
 
 ## Built With

@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Marc Raphael's leaderboard App
 
 >Welcome to my Leaderboard App, it is a scoreboard showing the names and current scores of the leading competitors
@@ -48,13 +46,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Have a detailed view by clicking here](https://marcraphael12.github.io/Leaderboard/)
+[Have a detailed view by clicking here](https://marcraphael12.github.io/Leaderboard/dist)
 
 ## Author
 👤 **Marc Raphael**
 
 - GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
-- LinkedIn: [Marc_Raphael](www.linkedin.com/in/marc-raphael-326039204)
+- LinkedIn: [Marc_Raphael](https://www.linkedin.com/in/marc-raphael-326039204)
 
 
 ## 🤝 Contributing
@@ -65,7 +63,7 @@ Feel free to check the [issues page](https://github.com/Marcraphael12/Leaderboar
 
 ## Aknowlagement
 
-Photo by [Cláudio Luiz Castro](https://unsplash.com/@claudiolcastro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/game?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Show your support
 

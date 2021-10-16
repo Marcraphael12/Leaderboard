@@ -1,0 +1,16 @@
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    > .recent-scores {
+      height: 60%;
+      width: 100%;
+    }
+
+    > .add-score {
+      height: 35%;
+      width: 100%;
+    }
+  }
+}

@@ -7,18 +7,44 @@
 body {
   width: 100%;
   height: 100vh;
+  background: $bg1;
+  background-size: 100% 100%;
+
+  .app {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: $global-padding;
+  }
+
+  .blur {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: blur(100px);
+  }
 }
 
 main {
   width: 100%;
-  max-width: 46.875rem;
-  height: 80%;
+  max-width: 950px;
+  height: 75%;
   padding: $global-padding;
+  background: $white;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
+  color: $iris;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: purple;
 }
 
 ul,
@@ -29,9 +55,20 @@ li {
 button {
   cursor: pointer;
   padding: 0.625rem 0.9375rem;
-  background: transparent;
-  border: 1px solid black;
+  background: $white;
   border-radius: 5px;
+  border: none;
+  color: $iris;
+  font-size: 15px;
+  font-weight: bold;
+  width: 82px;
+  height: 37px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: $fushia;
+  color: $white;
 }
 
 .flex {
@@ -56,5 +93,9 @@ button {
 
 footer {
   width: 100%;
+  max-width: 950px;
   height: 10%;
+  background-color: $white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }

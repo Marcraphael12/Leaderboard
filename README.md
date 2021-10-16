@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Marc Raphael**
 
 - GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
-- LinkedIn: [Marc_Raphael](www.linkedin.com/in/marc-raphael-326039204)
+- LinkedIn: [Marc_Raphael](https://www.linkedin.com/in/marc-raphael-326039204)
 
 
 ## 🤝 Contributing

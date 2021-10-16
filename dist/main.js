@@ -37,7 +37,7 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/bg1.jpg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  width: 100%;\\n  height: 100vh;\\n  background: white url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat 100% 100%;\\n}\\n\\nmain {\\n  width: 100%;\\n  max-width: 46.875rem;\\n  height: 80%;\\n  padding: 0.9375rem 1.25rem;\\n}\\n\\na {\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\nul,\\nli {\\n  list-style: none;\\n}\\n\\nbutton {\\n  cursor: pointer;\\n  padding: 0.625rem 0.9375rem;\\n  background: transparent;\\n  border: 1px solid black;\\n  border-radius: 5px;\\n}\\n\\n.flex {\\n  display: flex;\\n}\\n.flex-dc {\\n  flex-direction: column;\\n}\\n.flex-jc-c {\\n  justify-content: center;\\n}\\n.flex-jc-sb {\\n  justify-content: space-between;\\n}\\n.flex-ai-c {\\n  align-items: center;\\n}\\n\\nfooter {\\n  width: 100%;\\n  height: 10%;\\n}\\n\\n.recent-scores {\\n  border: 5px solid black;\\n  width: 50%;\\n  padding: 0.9375rem 1.25rem;\\n}\\n.recent-scores-list {\\n  width: 100%;\\n  height: 100%;\\n  margin-top: 20px;\\n  overflow-y: auto;\\n  overflow-x: hidden;\\n}\\n.recent-scores-list > li {\\n  width: 100%;\\n  height: 30px;\\n  padding: 0 10px;\\n}\\n.recent-scores-list > li > span {\\n  width: max-content;\\n  height: auto;\\n}\\n.recent-scores-list > li:not(:nth-child(even)) {\\n  background-color: #d4d4d4;\\n}\\n\\n.add-score {\\n  width: 45%;\\n  height: 13.5rem;\\n  border: 5px solid black;\\n  padding: 0.9375rem 1.25rem;\\n}\\n.add-score-title {\\n  width: 100%;\\n  height: 20%;\\n  margin-bottom: 10px;\\n}\\n.add-score > form {\\n  width: 100%;\\n  height: 80%;\\n}\\n.add-score > form > input {\\n  width: 100%;\\n  height: 30%;\\n  padding: 0.9375rem 1.25rem;\\n}\\n\\n.header {\\n  width: 100%;\\n  max-width: 46.875rem;\\n  height: 10%;\\n  padding: 0.9375rem 1.25rem;\\n}\\n.header-title {\\n  width: 100%;\\n  height: 100%;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/bg1.jpg */ \"./src/styles/images/bg1.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  width: 100%;\\n  height: 100vh;\\n  background: white url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat center center;\\n  background-size: 100% 100%;\\n}\\nbody .app {\\n  width: 100%;\\n  height: 100%;\\n  position: absolute;\\n  padding: 0.9375rem 1.25rem;\\n}\\nbody .blur {\\n  width: 100%;\\n  height: 100%;\\n  top: 0;\\n  left: 0;\\n  filter: blur(100px);\\n}\\n\\nmain {\\n  width: 100%;\\n  max-width: 950px;\\n  height: 75%;\\n  padding: 0.9375rem 1.25rem;\\n  background: white;\\n}\\n\\na {\\n  text-decoration: none;\\n  cursor: pointer;\\n  color: #6f45f8;\\n  font-size: 25px;\\n  font-weight: bold;\\n  transition: all 0.5s ease-in-out;\\n}\\n\\na:hover {\\n  color: purple;\\n}\\n\\nul,\\nli {\\n  list-style: none;\\n}\\n\\nbutton {\\n  cursor: pointer;\\n  padding: 0.625rem 0.9375rem;\\n  background: white;\\n  border-radius: 5px;\\n  border: none;\\n  color: #6f45f8;\\n  font-size: 15px;\\n  font-weight: bold;\\n  width: 82px;\\n  height: 37px;\\n  transition: all 0.2s ease-in-out;\\n}\\n\\nbutton:hover {\\n  background-color: #ec7afe;\\n  color: white;\\n}\\n\\n.flex {\\n  display: flex;\\n}\\n.flex-dc {\\n  flex-direction: column;\\n}\\n.flex-jc-c {\\n  justify-content: center;\\n}\\n.flex-jc-sb {\\n  justify-content: space-between;\\n}\\n.flex-ai-c {\\n  align-items: center;\\n}\\n\\nfooter {\\n  width: 100%;\\n  max-width: 950px;\\n  height: 10%;\\n  background-color: white;\\n  border-bottom-right-radius: 10px;\\n  border-bottom-left-radius: 10px;\\n}\\n\\n.recent-scores {\\n  background-color: white;\\n  border-radius: 10px;\\n  width: 50%;\\n}\\n.recent-scores > div {\\n  width: 100%;\\n  height: 150px;\\n  background-color: #6f45f8;\\n  padding: 0.9375rem 1.25rem;\\n  border-radius: 10px;\\n}\\n.recent-scores > div .recent {\\n  color: white;\\n  font-size: 20px;\\n  font-weight: bold;\\n  text-transform: capitalize;\\n}\\n.recent-scores-list {\\n  width: 100%;\\n  height: 100%;\\n  margin-top: 20px;\\n  overflow-y: auto;\\n  overflow-x: hidden;\\n}\\n.recent-scores-list > li {\\n  width: 100%;\\n  height: auto;\\n  padding: 10px 5px;\\n  border-bottom: solid 1px #6f45f8;\\n  background-color: white;\\n}\\n.recent-scores-list > li > span {\\n  width: max-content;\\n  height: auto;\\n  color: black;\\n  font-size: 16px;\\n  font-weight: bold;\\n}\\n.recent-scores-list > li > span:not(:nth-child(even)) {\\n  width: 100px;\\n  height: 100px;\\n  border-radius: 50px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  background: #6f45f8;\\n  color: white;\\n}\\n\\n.add-score {\\n  width: 40%;\\n  height: 16.5rem;\\n  padding: 0.9375rem 1.25rem;\\n  background-color: #6f45f8;\\n  border-radius: 10px;\\n}\\n.add-score-title {\\n  width: 100%;\\n  height: 20%;\\n  margin-bottom: 10px;\\n  color: white;\\n  font-size: 20px;\\n}\\n.add-score > form {\\n  width: 100%;\\n  height: 80%;\\n}\\n.add-score > form > input {\\n  width: 100%;\\n  height: 30%;\\n  padding: 0.9375rem 1.25rem;\\n  outline: none;\\n  color: #6f45f8;\\n  border: none;\\n  border-radius: 10px;\\n  font-size: 20px;\\n  font-weight: bold;\\n}\\n.add-score > form > button {\\n  align-self: flex-end;\\n}\\n\\n.header {\\n  width: 100%;\\n  max-width: 950px;\\n  height: 10%;\\n  padding: 0.9375rem 1.25rem;\\n  background-color: white;\\n  border-top-left-radius: 10px;\\n  border-top-right-radius: 10px;\\n}\\n.header-title {\\n  height: 100%;\\n  background: transparent;\\n  font-size: 1.5em;\\n  color: #6f45f8;\\n  text-transform: capitalize;\\n}\\n\\n@media screen and (max-width: 700px) {\\n  .main {\\n    flex-direction: column-reverse;\\n    align-items: center;\\n  }\\n  .main > .recent-scores {\\n    height: 60%;\\n    width: 100%;\\n  }\\n  .main > .add-score {\\n    height: 35%;\\n    width: 100%;\\n  }\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -158,6 +158,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 
 "use strict";
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://leaderboard/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+/***/ }),
+
+/***/ "./src/styles/images/bg1.jpg":
+/*!***********************************!*\
+  !*** ./src/styles/images/bg1.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b8ba78b67315747f338b.jpg\";\n\n//# sourceURL=webpack://leaderboard/./src/styles/images/bg1.jpg?");
 
 /***/ }),
 
@@ -300,6 +311,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -314,6 +337,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */

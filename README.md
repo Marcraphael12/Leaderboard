@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Have a detailed view by clicking here](https://marcraphael12.github.io/Leaderboard/)
+[Have a detailed view by clicking here](https://marcraphael12.github.io/Leaderboard/dist)
 
 ## Author
 👤 **Marc Raphael**
